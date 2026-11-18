@@ -1,0 +1,16 @@
+{
+  "name": "speedtest",
+  "version": "1.0.0",
+  "description": "Measures download speed by fetching a URL 10 times in a row",
+  "type": "module",
+  "bin": {
+    "speedtest": "./speedtest.js"
+  },
+  "scripts": {
+    "start": "node speedtest.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
